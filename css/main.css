@@ -1,0 +1,105 @@
+body::before {
+    background-size: cover;
+    background-attachment: fixed;
+    content: '';
+    will-change: transform;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    position: fixed;
+}
+
+body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+}
+
+.bg {
+  background: url('../images/bg.jpg') center / cover;
+}
+
+.c{
+	text-align: center;
+}
+.doughnut-legend {
+    list-style: none;
+    right: 8px;
+    top: 0;
+				width: 20px;
+}
+.doughnut-legend li span{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.doughnut-legend li {
+    position: relative;
+    margin-bottom: 4px;
+    border-radius: 5px;
+    padding: 2px 8px 2px 28px;
+    font-size: 14px;
+    cursor: default;
+    -webkit-transition: background-color 200ms ease-in-out;
+    -moz-transition: background-color 200ms ease-in-out;
+    -o-transition: background-color 200ms ease-in-out;
+    transition: background-color 200ms ease-in-out;
+}
+.work li {
+  margin: 5px;
+		padding: 10px;
+		color: #fff;
+		cursor: auto;
+		display: inline-block;
+		background-color: #000;
+}
+.card-name {
+				text-align: center;
+				font-size: 18px;
+}
+.card-face__title {
+    color: #90a4ae;
+				text-align: center;
+				font-size: 18px;
+}
+.card-face__avatar {
+				width:150px;
+	  height:150px;
+	  margin: auto;
+	  overflow: hidden;
+	  position: relative;
+}
+.card-face__avatar img {
+	margin-top: 20px;
+  position: absolute;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		 -ms-border-radius: 50%;
+			 -o-border-radius: 50%;
+				 border-radius: 50%;
+}
+
+.mdl-grid {
+			max-width: 900px;
+
+}
+.mdl-card__media {
+			margin: 0;
+}
+.mdl-card__media > img {
+			max-width: 100%;
+}
+.mdl-card__actions {
+			display: flex;
+			box-sizing:border-box;
+			align-items: center;
+}
+.mdl-card__actions > .mdl-button--icon {
+			margin-right: 3px;
+			margin-left: 3px;
+}
