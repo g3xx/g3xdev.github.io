@@ -3,307 +3,283 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>My Site Sweet Site</title>
-    <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/icon?family=Material+Icons'>
-    <link rel='stylesheet prefetch' href='http://storage.googleapis.com/code.getmdl.io/1.0.1/material.blue-teal.min.css'>
+    <meta name="robots" content="noindex">
+    <title>About</title>
+    <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css'>
+    <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/flickity/2.0.10/flickity.min.css'>
+    <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/jsonlylightbox-fast@0.5.8/css/lightbox.min.css'>
     <link rel="stylesheet" href="css/main.css" type="text/css" >
     <link rel="stylesheet" href="css/slimbox.css" type="text/css" >
   </head>
 
 <body>
-   <div class="bg mdl-layout mdl-js-layout mdl-color--grey-100">
+  <div class="columns is-centered mblc">
+      <div class="column is-three-quarters">
 
-    <div class="mdl-grid mdl-js-layout">
+         <section class="hero box heads">
+            <div class="hero-body has-text-centered is-paddingless">
+            <img class="img-circle" src="/images/me.jpg" width="128" height="128">
+            <h1 class="title"><i>Achmad Agung Setiono</i> </h1>
+            <h2 class="subtitle"><i> Learn, (Trial and Error) ? Repeat! : Holiday. </i></h2>
+            <a class="button is-dark" href="https://github.com/g3xx"><span class="icon"> <i class="fa fa-github"></i> </span></a>
+            <a class="button is-dark" href="https://api.whatsapp.com/send?phone=6288808161415&text=Hello ">
+              <span class="icon"> <i class="fa fa-whatsapp"></i> </span></a>
+            <a class="button is-dark" href="mailto:achmadxagung@gmail.com" title="email"> 
+              <span class="icon"><i class="fa fa-envelope"></i> </span>
+            </a>
+            </div>
+         </section>
 
-      <div class="mdl-layout__drawer">
-        <span class="mdl-layout-title">
-         <div class="card-face__avatar">
-             <img src="images/me.jpg" height="120" width="120">
-         </div>
-        </span>
-        <span class="card-name"><b>Achmad Agung S </b></span>
-        <span class="card-face__title"><br><i>Web developer & Mobile application developer</i></span>
+              <div class="columns stat">
 
-        <nav class="mdl-navigation">
-          <a class="mdl-navigation__link card-name" href="/#myskill">About</a>
-          <a class="mdl-navigation__link card-name" href="/#project">Project</a>
-          <a class="mdl-navigation__link card-name" href="">Contact</a>
-          <a class="mdl-navigation__link card-name" href="">Blog</a>
-        </nav>
-      </div>
-      <main class="mdl-layout__content">
-        <div class="page-content"><!-- Your content goes here --></div>
-      </main>
-    </div>
+                <div class="column card s1" id="s1" onclick="showmodal(this.id);">
+                   <i class="fa fa-support fa-4x"></i>
+                   <h1>Support</h1>
+                </div>
 
-
-
-
-   <main class="mdl-layout__content">
-       <div class="mdl-grid" id="myskill">
-        <div class="mdl-card mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-shadow--4dp">
-
-         <div class="mdl-card__title c">
-          <h1 class="mdl-card__title-text">#My Skill</h1>
-         </div>
-         <div class="mdl-card__supporting-text">
-          	<canvas id="chart-area" width="250" height="250"/></canvas>
-            <div class="mdl-grid">
-              <div class="mdl-cell mdl-cell--4-col">
-               <ul class="doughnut-legend">
-                <li><span style="background-color:#2196F3"></span>JS</li>
-                <li><span style="background-color:#E91C63"></span>PHP</li>
-                <li><span style="background-color:#4CAF50"></span>CSS</li>
-               </ul>
+                <div class="column card s2" id="s2" onclick="showmodal(this.id);">
+                   <i class="fa fa-code fa-4x"></i>
+                   <h1>Programming</h1>
+                </div>
+               <div class="column card s3" id="s3" onclick="showmodal(this.id);">
+                   <i class="fa fa-pie-chart fa-4x"></i>
+                   <h1>Marketing</h1>
+                </div>
               </div>
-              <div class="mdl-cell mdl-cell--4-col">
-               <ul class="doughnut-legend">
-                <li><span style="background-color:#FFC107"></span>HTML</li>
-                <li><span style="background-color:#4051B5"></span>Node</li>
-                <li><span style="background-color:#607D8B"></span>Delphi</li>
-               </ul>
-              </div>
-            </div>
-         </div>
-        </div>
 
+              <div class="columns stat">
 
+                <div class="column card s4" id="s4" onclick="showmodal(this.id);">
+                   <i class="fa fa-bug fa-4x"></i>
+                   <h1>Exploit</h1>
+                </div>
 
-        <div class="mdl-card mdl-cell mdl-cell--8-col mdl-cell--6-col-tablet mdl-shadow--4dp">
-            <figure class="mdl-card__media">
-             <img src="images/code.jpg" alt="" />
-            </figure>
-            <div class="mdl-card__title">
-             <h1 class="mdl-card__title-text">#About Me</h1>
+                <div class="column card s5" id="s5" onclick="showmodal(this.id);">
+                   <i class="fa fa-shield fa-4x"></i>
+                   <h1>&nbsp;Security</h1>
+                </div>
+               <div class="column card s6" id="s6" onclick="showmodal(this.id);">
+                   <i class="fa fa-paint-brush fa-4x"></i>
+                   <h1>Design</h1>
+                </div>
             </div>
-            <div class="mdl-card__supporting-text">
-             <p>I like Build Hybrid Mobile App (Front In Android) with Ionic framework,
-              And Backend Full REST with MEAN (MongoDB,ExpressJs,AngularJS,NodeJs). </p>
-              <p> Now I am interested Learn new language Programming, Like (GO Lang, TypeScript, QT Framework)
-            </div>
-            <div class="mdl-card__actions mdl-card--border">
-             <div class="mdl-layout-spacer">
-                  <div class="mdl-grid">
-                   <div class="mdl-cell mdl-cell--3-col">
-                    <ul class="doughnut-legend">
-                     <li><span style="background-color:#9C27B0"></span>Express</li>
-                     <li><span style="background-color:#4CAF50"></span>Angular</li>
-                     <li><span style="background-color:#F44336"></span>Ionic</li>
-                     <li><span style="background-color:#CDDC39"></span>RESTapi</li>
-                    </ul>
-                   </div>
-                   <div class="mdl-cell mdl-cell--3-col">
-                    <ul class="doughnut-legend">
-                     <li><span style="background-color:#FFEB3B"></span>MySql</li>
-                     <li><span style="background-color:#607D8B"></span>MongoDB</li>
-                     <li><span style="background-color:#795548"></span>yii2</li>
-                     <li><span style="background-color:#FF9800"></span>CodeIgniter</li>
-                    </ul>
-                   </div>
-                   <div class="mdl-cell mdl-cell--3-col">
-                    <ul class="doughnut-legend">
-                     <li><span style="background-color:#4051B5"></span>Node</li>
-                     <li><span style="background-color:#607D8B"></span>Delphi</li>
-                     <li><span style="background-color:#00BCD4"></span>Fedora</li>
-                     <li><span style="background-color:#B3A2D3"></span>.Git</li>
-                    </ul>
-                   </div>
-                    <div class="mdl-cell mdl-cell--3-col">
-                     <ul class="doughnut-legend">
-                      <li><span style="background-color:#2196F3"></span>JS</li>
-                      <li><span style="background-color:#E91C63"></span>PHP</li>
-                      <li><span style="background-color:#4CAF50"></span>CSS</li>
-                      <li><span style="background-color:#FFC107"></span>HTML</li>
-                     </ul>
+          
+           <!-- support modal -->
+          <div class="modal" id="modals1">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+              <div class="card">
+                  <header class="card-header">
+                    <p class="card-header-title"> Kemampuan IT Support</p>
+                  </header>
+                  <div class="card-content">
+                    <div class="content">
+                      <b>Networking</b>, skill saya tentang pengetahuan Local Area Network (LAN), masih kurang. karena tidak ada bahan
+                      untuk belajar buat saya, jika saya 1 hari di ajarkan, mungkin bisa menambah pengetahuan saya.<br><br>
+                      <b>Hardware</b>, semua masalah Hardware terutama untuk PC, sudah pernah saya alami. sehingga saya tahu
+                      apa ketika PC mendapat masalah (rusak), tidak untuk laptop. karena saya tidak mempunyai laptop.<br><br>
+                      <b>Software</b>, saya menggunakan 2 sistem operasi, windows 10 dan linux Fedora 26. 
+                      <br><br>
                     </div>
                   </div>
-               </div>
-            </div>
-        </div>
-       </div>
-      
-        <!-- baris 3 !-->
-
-        <div class="mdl-grid">
-
-         <div class="mdl-card mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-shadow--4dp">
-             <figure class="mdl-card__media">
-              <img src="images/goyangin.png" alt="" height="220" onclick="gedein(src)"/>
-             </figure>
-             <div class="mdl-card__title">
-              <h1 class="mdl-card__title-text">Goyangin Theme (2017)</h1>
-             </div>
-             <div class="mdl-card__supporting-text">
-              <p>Simple Theme responsive for Hexo<br>
-                with Bulma.io FrameworkCSS
-              <a href="http://goyangin.0x3g.com"> demo </a></p>
-             </div>
-         </div>
-
-         <div class="mdl-card mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-shadow--4dp">
-             <figure class="mdl-card__media">
-              <img src="images/cstring.jpg" alt="" onclick="gedein(src)"/>
-             </figure>
-             <div class="mdl-card__title">
-              <h1 class="mdl-card__title-text"> Email utilities v.02 (2017)</h1>
-             </div>
-             <div class="mdl-card__supporting-text">
-              <p> Manipulation String List From DB, Only Javascript Feat AngularJS. web APP. 
-                <br><a href="http://null.0x3g.com"> demo </a></p>
-             </div>
-         </div>
-
-          <div class="mdl-card mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-shadow--4dp">
-           <figure class="mdl-card__media">
-            <img src="images/droid0.png" alt="" onclick="gedein(src)"/>
-           </figure>
-           <div class="mdl-card__title">
-            <h1 class="mdl-card__title-text">Droid Wallpaper (2016)</h1>
-           </div>
-           <div class="mdl-card__supporting-text">
-            	<p>Created with Ionic and Use 3rd Party Site.
-              <a href="images/droid2.jpg" rel="lightbox" title="Gambar 1">Image #1</a></p>
-           </div>
+                </div>
+              </div>
+            <button class="modal-close is-large" aria-label="close" onClick='hidemodal(this.parentNode.id)'></button>
           </div>
-        </div>
-
-       <!-- baris 3 !-->
-       <div class="mdl-grid">
-          <div class="mdl-card mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-shadow--4dp">
-           <figure class="mdl-card__media">
-            <img src="images/ra1.png" alt="" onclick="gedein(src)"/>
-           </figure>
-           <div class="mdl-card__title">
-            <h1 class="mdl-card__title-text">Random Ayat Al-Quran (2016)</h1>
-           </div>
-           <div class="mdl-card__supporting-text">
-            	 <p>Created with Ionic and Use APi by <a href="http://widgets.mahesajenar.com">MasAryo</a>
-           </div>
+          <!-- Programming modal-->
+          <div class="modal" id="modals2">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+               <div class="card">
+                    <header class="card-header">
+                      <p class="card-header-title"> Kemampuan Programming</p>
+                    </header>
+                    <div class="card-content">
+                      <b>Front End</b> = saya menggunakan AngularJS, tidak jQuery !!!! dan saya menggunakan Bulma untuk CSS Frameworknya.
+                      tidak BootsTrap !!. tidak saya gunakan bukan berarti saya tidak memahami, saya hanya kurang suka, tapi tergantung isi front nya. <br><br>
+                      <b>Back End</b> = Tergantung dari berapa banyak query Database yang di Esekusi oleh Visitor. kalo untuk API saya tidak menggunakan PHP.
+                      lebih ke Flask (python), express (node), Sinatra (ruby), Slim (PHP) . untuk PHP Framework Lavarel, wordpress. saya masih kurang untuk membuat
+                      schema Database. Saya lebih suka Membuat SinglePage Application. <br><br>
+                      <b>Android</b> = Saya menggunakan Ionic Framework 1 untuk Build App di Android.<br>
+                      <b>GUI</b> = Delphi, Python dengan QT5.<br>
+                      <b>Other</b> = saya menggunakan GitHub.
+                    </div>
+                  </div>
+            </div>
+            <button class="modal-close is-large" aria-label="close" onClick='hidemodal(this.parentNode.id)'></button>
+          </div>
+         <!-- Marketing modal -->
+          <div class="modal" id="modals3">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+               <div class="card">
+                  <header class="card-header">
+                    <p class="card-header-title"> Kemampuan Marketing</p>
+                  </header>
+                  <div class="card-content">
+                    <div class="content">
+                      <b>SEO</b> = kurang tertarik dengan dunia Internet Marketing, walaupun hasil nya luar biasa. cukup paham
+                      bagi saya, sudah lebih dari cukup. entah kenapa, saya lebih suka nulis Code, dari pada menulis Artikel.
+                      walaupun saya sudah merasakan hasil uang dari Youtube dan Adsense blog saya masih berjalan. <br><br>
+                      <b>Social</b> = saya tidak mempunyai akun selain Facebook dan fanspage di facebook. dan saya menggunakan
+                      facebook hanya untuk gabung di group komunitas, media Social bagi saya adalah pembodohan. tidak ada waktu
+                      untuk pamer dan sombong di dunia Social.
+                      <br><br>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <button class="modal-close is-large" aria-label="close" onClick='hidemodal(this.parentNode.id)'></button>
+          </div>
+          <!-- exploit modal -->
+          <div class="modal" id="modals4">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <div class="card">
+                  <header class="card-header">
+                    <p class="card-header-title"> Kemampuan Exploit</p>
+                  </header>
+                  <div class="card-content">
+                    <div class="content">
+                      <b>BUG</b> = Banyak cara untuk masuk Server orang lain. via Bug Web Application (Sqli,RCE,LFI,BruteFore)
+                      dan via Bug Server (software), kebanyakan bug server method RCE atau BruteForece. cukup mendapatkan Local Root sudah bahagia buat saya. <br><br>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <button class="modal-close is-large" aria-label="close" onClick='hidemodal(this.parentNode.id)'></button>
+          </div>
+          <!-- security modal -->
+          <div class="modal" id="modals5">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <div class="card">
+                  <header class="card-header">
+                    <p class="card-header-title"> Kemampuan Security</p>
+                  </header>
+                  <div class="card-content">
+                    <div class="content">
+                      <b>Defend</b> = cukup mudah untuk menahan serangan Anonymous, walaupun tidak ada sistem yang sempurna.
+                      bagi saya update Software /day dan mengikuti MailingList sudah cukup untuk security Server jika menggunkan VPS. 
+                      tidak jika mengunakan Hosting, harus pasrah jika ada Sesorang mendapatakan Root di server Hosting anda. dan
+                      yang paling penting adalah Security di WebApplication tidak mempunyai bug!!.  
+                       <br><br>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <button class="modal-close is-large" aria-label="close" onClick='hidemodal(this.parentNode.id)'></button>
+          </div>
+          <!-- Programming design -->
+          <div class="modal" id="modals6">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+               <div class="card">
+                  <header class="card-header">
+                    <p class="card-header-title"> Kemampuan Security</p>
+                  </header>
+                  <div class="card-content">
+                    <div class="content">
+                      <b>UX / UI</b> = Design adalah kekurangan saya, dan PhotoShop/CorelDraw saya tidak bisa, ga ada niatan untuk bisa menggunakan.
+                       ya bisa di bilang newbie jika saya mengunakan software tersebut, dan saya suka design Minimalis dan Flat.
+                       <br><br>
+                    </div>
+                  </div>
+                </div>
+              
+            </div>
+            <button class="modal-close is-large" aria-label="close" onClick='hidemodal(this.parentNode.id)'></button>
           </div>
 
-        <div class="mdl-card mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-shadow--4dp">
-            <figure class="mdl-card__media">
-             <img src="images/mp3.png" alt="" onclick="gedein(src)"/>
-            </figure>
-            <div class="mdl-card__title">
-             <h1 class="mdl-card__title-text">Mp3 Download (2016)</h1>
+          <div class="carousel">
+            <div class="carousel-cell">
+              <img class="jslghtbx-thmb" src="/images/boot.png" data-jslghtbx-caption="My USB Utitlies." alt="" data-jslghtbx> 
             </div>
-            <div class="mdl-card__supporting-text">
-                 <p>Created with Ionic and Use 3rd party website, but App Suspend. #lol  <a href="images/mp3x.png" rel="lightbox" title="Gambar 1">Image</a></p>
+            <div class="carousel-cell">
+                <img class="jslghtbx-thmb" src="/images/goyangin.png" alt="" data-jslghtbx 
+                data-jslghtbx-caption=" Goyangin Theme (2017) for hexo <a href='http://goyangin.0x3g.com/'>(Demo)</a>" > 
             </div>
-        </div>
-
-        <div class="mdl-card mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-shadow--4dp">
-            <figure class="mdl-card__media">
-             <img src="images/win.png" alt="" onclick="gedein(src)" />
-            </figure>
-            <div class="mdl-card__title">
-             <h1 class="mdl-card__title-text">win98app.com (2016)</h1>
+            <div class="carousel-cell">
+                <img class="jslghtbx-thmb" src="/images/bt1.jpg" alt="" data-jslghtbx="/images/bt1.jpg" data-jslghtbx-group="mygroup1"
+                data-jslghtbx-caption="Frontend Balitravelo (2015) in Android">
+                <img class="jslghtbx-thmb" alt="" data-jslghtbx="/images/bt2.jpg" data-jslghtbx-group="mygroup1"
+                data-jslghtbx-caption="Frontend Balitravelo (2015) in Android">
+                <img class="jslghtbx-thmb" data-jslghtbx="/images/bi-b.png" data-jslghtbx-group="mygroup1"
+                 data-jslghtbx-caption="Backend Balitravelo (2015) with Node (MEAN)">
             </div>
-            <div class="mdl-card__supporting-text">
-             <p>Web Auto Generate Content (AGC), Created with Native PHP 5.4 Demo :
-               <a href="http://www.win98app.com/" target="_blank">http://www.win98app.com</a>
-             </p>
+            <div class="carousel-cell">
+                <img class="jslghtbx-thmb" src="/images/cstring.jpg" alt="" data-jslghtbx
+                data-jslghtbx-caption="WebApp Utitlies with Angular. <a href='http://null.0x3g.com/'>(Demo) </a>" > 
             </div>
-        </div>
-       </div>
-
-
-        <!-- baris 2 !-->
-        <div class="mdl-grid" id="project">
-         <div class="mdl-card mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-shadow--4dp">
-             <figure class="mdl-card__media">
-              <img src="images/bt1.jpg" alt="" onclick="gedein(src)"/>
-             </figure>
-             <div class="mdl-card__title">
-              <h1 class="mdl-card__title-text">Front Balitravelo (2015)</h1>
-             </div>
-             <div class="mdl-card__supporting-text">
-              <p>Ionic Framework, AngularJS, ngCordova
-               <a href="images/bt1.jpg" rel="lightbox" title="Gambar 1">Image #1</a>
-               <a href="images/bt2.jpg" rel="lightbox" title="Gambar 2">Image #2</a></p>
-             </div>
-         </div>
-
-         <div class="mdl-card mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-shadow--4dp">
-             <figure class="mdl-card__media">
-              <img src="images/bi-b.png" alt="" height="220" onclick="gedein(src)"/>
-             </figure>
-             <div class="mdl-card__title">
-              <h1 class="mdl-card__title-text">Backend Balitravelo (2015)</h1>
-             </div>
-             <div class="mdl-card__supporting-text">
-              <p>Full Rest with Mean. Demo : http://www.g3xdev.com/admin#/ <br>
-              user: admin and pass: admin</p>
-             </div>
-         </div>
-        </div>
-        <!-- baris 3 !-->
-        <div class="mdl-grid">
-        			<div class="mdl-card mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-shadow--4dp">
-        				<figure class="mdl-card__media">
-        					<img src="images/bm.png" alt="" onclick="gedein(src)"/>
-        				</figure>
-        				<div class="mdl-card__title">
-        					<h1 class="mdl-card__title-text">Free sms Dekstop (2014)</h1>
-        				</div>
-        				<div class="mdl-card__supporting-text">
-        					<p>Created with Delphi 7 with Public Api</p>
-        				</div>
-        			</div>
-
-      			<div class="mdl-card mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-shadow--4dp">
-         				<figure class="mdl-card__media">
-         					<img src="images/p.jpg" alt="" onclick="gedein(src)" />
-         				</figure>
-         				<div class="mdl-card__title">
-         					<h1 class="mdl-card__title-text">.Etc</h1>
-         				</div>
-         				<div class="mdl-card__supporting-text">
-              <p>Before my disk is damaged, I have Source Project PHP. Blog with yii2 and Codeigniter, galleryImage with yii2,
-              Forum with SLIMmicro with Angular.</p>
-         				</div>
-      			</div>
-
-         <div class="mdl-card mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-shadow--4dp">
-             <figure class="mdl-card__media">
-              <img src="images/pmq.jpg" alt="" onclick="gedein(src)"/>
-             </figure>
-             <div class="mdl-card__title">
-              <h1 class="mdl-card__title-text">Inject Header (2014)</h1>
-             </div>
-             <div class="mdl-card__supporting-text">
-                 <p>Created with Delphi 7 <br>
-                  <a href="images/pmq.png" rel="lightbox" title="Gambar 1">Image #1</a></p>
-             </div>
-         </div>
-      		</div>
-        <!-- footer -->
-        <div class="mdl-grid">
-           <div class="mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-shadow--4dp">
-              <footer class="mdl-mini-footer">
-                 <div class="mdl-mini-footer__left-section">
-                  <div class="mdl-logo">Build Template 10.2016-gexx || i will Change with Other Framework</div>
-                   <ul class="mdl-mini-footer__link-list">
-                     <li><a href="https://github.com/google/material-design-lite">Framework Material </a></li>
-                     <li><a href="http://g3xdev.com/public/app_privacy.txt">Privacy Policy</a></li>
-                   </ul>
-                 </div>
-                </footer>
+            <div class="carousel-cell">
+                <img class="jslghtbx-thmb" src="/images/win.png" alt="" data-jslghtbx
+                data-jslghtbx-caption="AGC with Wodpress, next time will update. <a href='http://win98app.com/'>(Demo) </a>" > 
             </div>
-         </div>
-     	</main>
+            <div class="carousel-cell">
+                <img class="jslghtbx-thmb" src="/images/droid2.jpg" alt="" data-jslghtbx="/images/droid2.jpg" data-jslghtbx-group="mygroup1"
+                data-jslghtbx-caption="Simple Search Wallpaper in Android">
+                <img class="jslghtbx-thmb" alt="" data-jslghtbx="/images/droid1.jpg" data-jslghtbx-group="mygroup1"
+                data-jslghtbx-caption="Easy to Download, not many ADS.">
+            </div>
+            <div class="carousel-cell">
+                <img class="jslghtbx-thmb" src="/images/ra1.png"  alt="" data-jslghtbx
+                data-jslghtbx-caption="Random Ayat Al-Quran (2016).Created with Ionic and Use APi by <a href='http://widgets.mahesajenar.com/'> MasAryo</a>"> 
+            </div>
+            <div class="carousel-cell">
+                <img class="jslghtbx-thmb" src="/images/mp3.png" alt="" data-jslghtbx="/images/mp3.png" data-jslghtbx-group="mygroup2"
+                data-jslghtbx-caption=" Android Application MP3 downloader" > 
+               <img class="jslghtbx-thmb" src="/images/mp3x.png" alt="" data-jslghtbx="/images/mp3x.png" data-jslghtbx-group="mygroup2"
+                data-jslghtbx-caption=" Android Application MP3 downloader" > 
+            </div>
+
+            <div class="carousel-cell">
+                <img class="jslghtbx-thmb" src="/images/pmq.jpg" data-jslghtbx-caption="2014 App Utitlies." alt="" data-jslghtbx> 
+            </div>
+ 
+          </div>
+
+
+
+
+
+          <div class="footers">
+            <h1><span>
+             <i class="fa fa-flask"></i> Build with <i class="fa fa-github "></i> for Host, <i class="fa fa-html5"></i> by Bulma.io 
+             And JS Carousels by flickity <i class="fa fa-jsfiddle"></i> cdnjs <i class="fa fa-copyright"></i> 2018, rev. v.02.11  
+            </span></h1>
+          </div>
+
+
+      </div>
   </div>
+</body>
 
-    <script src='//storage.googleapis.com/code.getmdl.io/1.0.1/material.min.js'></script>
-    <script src='//cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js'></script>
-    <script src="js/mootools.js"></script>
-    <script src="js/slimbox.js"></script>
-    <script src='js/skill.js'></script>
-    <script>
-     function gedein(x) {
-       Slimbox.open(x);
+    <script src='//cdnjs.cloudflare.com/ajax/libs/flickity/2.0.10/flickity.pkgd.min.js'></script>
+    <script src="//cdn.jsdelivr.net/npm/jsonlylightbox-fast@0.5.8/js/lightbox.min.js"></script>
+    <script type="text/javascript">
+
+     var showmodal = function(id){
+        var tmp = document.getElementById("modal"+id);
+        tmp.className = "modal is-active";
+        //alert(tmp);
      }
+
+     var hidemodal = function(id){
+        var div = document.getElementById(id);
+        div.className = "modal";
+     }
+
+     var elem = document.querySelector('.carousel');
+     var flkty = new Flickity( elem, {
+        // options
+        cellAlign: 'left',
+        contain: true
+    });
+
+    var lightbox = new Lightbox();
+    lightbox.load();
+
    </script>
-  </body>
+
 </html>
